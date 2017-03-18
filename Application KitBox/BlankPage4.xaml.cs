@@ -26,5 +26,75 @@ namespace Application_KitBox
         {
             this.InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(BlankPage5));
+        }
+
+        private void TextBlock_SelectionChanged_3(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBlock_SelectionChanged_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBlock_SelectionChanged_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBlock_SelectionChanged_4(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBlock_SelectionChanged_5(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_3(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_4(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_5(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

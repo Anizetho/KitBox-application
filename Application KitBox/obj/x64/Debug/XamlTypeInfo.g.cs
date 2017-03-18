@@ -132,21 +132,25 @@ namespace Application_KitBox.Application_KitBox_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
+            _typeNameTable = new string[8];
             _typeNameTable[0] = "Application_KitBox.BlankPage1";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "Application_KitBox.BlankPage2";
             _typeNameTable[4] = "Application_KitBox.BlankPage3";
-            _typeNameTable[5] = "Application_KitBox.MainPage";
+            _typeNameTable[5] = "Application_KitBox.BlankPage4";
+            _typeNameTable[6] = "Application_KitBox.BlankPage5";
+            _typeNameTable[7] = "Application_KitBox.MainPage";
 
-            _typeTable = new global::System.Type[6];
+            _typeTable = new global::System.Type[8];
             _typeTable[0] = typeof(global::Application_KitBox.BlankPage1);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::Application_KitBox.BlankPage2);
             _typeTable[4] = typeof(global::Application_KitBox.BlankPage3);
-            _typeTable[5] = typeof(global::Application_KitBox.MainPage);
+            _typeTable[5] = typeof(global::Application_KitBox.BlankPage4);
+            _typeTable[6] = typeof(global::Application_KitBox.BlankPage5);
+            _typeTable[7] = typeof(global::Application_KitBox.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -184,7 +188,9 @@ namespace Application_KitBox.Application_KitBox_XamlTypeInfo
         private object Activate_0_BlankPage1() { return new global::Application_KitBox.BlankPage1(); }
         private object Activate_3_BlankPage2() { return new global::Application_KitBox.BlankPage2(); }
         private object Activate_4_BlankPage3() { return new global::Application_KitBox.BlankPage3(); }
-        private object Activate_5_MainPage() { return new global::Application_KitBox.MainPage(); }
+        private object Activate_5_BlankPage4() { return new global::Application_KitBox.BlankPage4(); }
+        private object Activate_6_BlankPage5() { return new global::Application_KitBox.BlankPage5(); }
+        private object Activate_7_MainPage() { return new global::Application_KitBox.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -225,9 +231,23 @@ namespace Application_KitBox.Application_KitBox_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  Application_KitBox.MainPage
+            case 5:   //  Application_KitBox.BlankPage4
                 userType = new global::Application_KitBox.Application_KitBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_MainPage;
+                userType.Activator = Activate_5_BlankPage4;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  Application_KitBox.BlankPage5
+                userType = new global::Application_KitBox.Application_KitBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_BlankPage5;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  Application_KitBox.MainPage
+                userType = new global::Application_KitBox.Application_KitBox_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

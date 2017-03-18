@@ -202,8 +202,18 @@ c:\users\anizetho\documents\visual studio 2015\Projects\Application KitBox\Appli
 c:\users\anizetho\documents\visual studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage2.xaml
 c:\users\anizetho\documents\visual studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage2.xbf
 C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\Application KitBox.csprojResolveAssemblyReference.cache
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage4.g.i.cs
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage4.g.cs
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage4.xaml
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage4.xbf
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\bin\x64\Debug\BlankPage4.xbf
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\bin\x64\Debug\BlankPage3.xbf
 C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage3.g.i.cs
 C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage3.g.cs
 C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage3.xaml
 C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage3.xbf
-C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\bin\x64\Debug\BlankPage3.xbf
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\bin\x64\Debug\BlankPage5.xbf
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage5.g.i.cs
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage5.g.cs
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage5.xaml
+C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\obj\x64\Debug\BlankPage5.xbf

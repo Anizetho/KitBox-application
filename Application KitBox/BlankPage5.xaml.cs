@@ -26,5 +26,17 @@ namespace Application_KitBox
         {
             this.InitializeComponent();
         }
+
+        private void TextBlock_SelectionChanged_3(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
+
     }
 }

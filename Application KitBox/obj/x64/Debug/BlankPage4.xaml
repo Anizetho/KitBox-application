@@ -36,67 +36,68 @@
 
             <StackPanel Orientation="Horizontal" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <Border Background="#FF7D9EB8"  BorderBrush="Black" BorderThickness="3" Grid.ColumnSpan="2" Grid.Row="1" Height="70" Width="200" >
-                    <TextBlock Text="Customize"
-                        FontSize="36"  Foreground="#FFFFFFFF" SelectionHighlightColor="#FF34D716" TextAlignment="Center" VerticalAlignment="Bottom"  SelectionChanged="TextBlock_SelectionChanged_3" Margin="0,0,0,8" />
+                    <TextBlock x:ConnectionId='19' Text="Customize"
+                        FontSize="36"  Foreground="#FFFFFFFF" SelectionHighlightColor="#FF34D716" TextAlignment="Center" VerticalAlignment="Bottom"                                                  Margin="0,0,0,8" />
                 </Border>
                 <Border Background="#FF7D9EB8"  BorderBrush="Black" Grid.ColumnSpan="2" Grid.Row="1" BorderThickness="2,4" Height="70" Width="200" >
-                    <TextBlock Text="Summary"
-                        FontSize="36"  Foreground="#FFFFFFFF" SelectionHighlightColor="#FF34D716" TextAlignment="Center" VerticalAlignment="Center"  SelectionChanged="TextBlock_SelectionChanged_3" />
+                    <TextBlock x:ConnectionId='18' Text="Summary"
+                        FontSize="36"  Foreground="#FFFFFFFF" SelectionHighlightColor="#FF34D716" TextAlignment="Center" VerticalAlignment="Center"                                                  />
                 </Border>
                 <Border Background="#FF436B89"  BorderBrush="Red" Grid.ColumnSpan="2" Grid.Row="1" BorderThickness="2,4" Height="70" Width="300" >
-                    <TextBlock Text="Personnal data"
-                        FontSize="36"  Foreground="#FFFFFFFF" SelectionHighlightColor="#FF34D716" TextAlignment="Center" VerticalAlignment="Center"  SelectionChanged="TextBlock_SelectionChanged_3" />
+                    <TextBlock x:ConnectionId='17' Text="Personnal data"
+                        FontSize="36"  Foreground="#FFFFFFFF" SelectionHighlightColor="#FF34D716" TextAlignment="Center" VerticalAlignment="Center"                                                  />
                 </Border>
                 <Border Background="#FF7D9EB8"  BorderBrush="Black" Grid.ColumnSpan="2" Grid.Row="1" BorderThickness="2,4,4,4" Height="70" Width="250" >
-                    <TextBlock Text="Confirmation"
-                        FontSize="36"  Foreground="#FFFFFFFF" SelectionHighlightColor="#FF34D716" TextAlignment="Center" VerticalAlignment="Center"  SelectionChanged="TextBlock_SelectionChanged_3" />
+                    <TextBlock x:ConnectionId='16' Text="Confirmation"
+                        FontSize="36"  Foreground="#FFFFFFFF" SelectionHighlightColor="#FF34D716" TextAlignment="Center" VerticalAlignment="Center"                                                  />
                 </Border>
             </StackPanel>
 
             <Border Background="#FF173852"  BorderBrush="Black" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1" BorderThickness="0" Height="100" Width="auto" >
-                <TextBlock Text="Personnal data"
-                    FontSize="40"  Foreground="#FFFFFFFF" SelectionHighlightColor="#FF34D716" TextAlignment="Center" VerticalAlignment="Center"  SelectionChanged="TextBlock_SelectionChanged_3" />
+                <TextBlock x:ConnectionId='15' Text="Personnal data"
+                    FontSize="40"  Foreground="#FFFFFFFF" SelectionHighlightColor="#FF34D716" TextAlignment="Center" VerticalAlignment="Center"                                                  />
             </Border>
 
             <Border Background="#FF173852"  BorderBrush="Black" Grid.Row="2" Grid.Column="1" BorderThickness="0" Height="auto" Width="350" HorizontalAlignment="Left" Margin="0, 0, 0, 10">
-                <TextBlock Grid.Row="2" Grid.Column="1" Text="Name :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0" SelectionChanged="TextBlock_SelectionChanged"  />
+                <TextBlock x:ConnectionId='14' Grid.Row="2" Grid.Column="1" Text="Name :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0"                                                />
             </Border>
-            <TextBox Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4" TextChanged="TextBox_TextChanged" />
+            <TextBox x:ConnectionId='1' Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4"                                   />
 
             <Border Background="#FF173852"  BorderBrush="Black" Grid.Row="3" Grid.Column="1" BorderThickness="0" Height="auto" Width="350"  HorizontalAlignment="Left" Margin="0, 0, 0, 10">
-                <TextBlock Grid.Row="3" Grid.Column="1" Text="First name :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0" SelectionChanged="TextBlock_SelectionChanged_1" />
+                <TextBlock x:ConnectionId='13' Grid.Row="3" Grid.Column="1" Text="First name :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0"                                                 />
             </Border>
-            <TextBox Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4" TextChanged="TextBox_TextChanged_1" />
+            <TextBox x:ConnectionId='2' Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4"                                     />
 
             <Border Background="#FF173852"  BorderBrush="Black" Grid.Row="4" Grid.Column="1" BorderThickness="0" Height="auto" Width="350"  HorizontalAlignment="Left" Margin="0, 0, 0, 10">
-                <TextBlock Grid.Row="4" Grid.Column="1" Text="Date of birth :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0" SelectionChanged="TextBlock_SelectionChanged_1" />
+                <TextBlock x:ConnectionId='12' Grid.Row="4" Grid.Column="1" Text="Date of birth :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0"                                                 />
             </Border>
-            <TextBox Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4" TextChanged="TextBox_TextChanged_2" />
+            <TextBox x:ConnectionId='3' Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4"                                     />
 
             <Border Background="#FF173852"  BorderBrush="Black" Grid.Row="5" Grid.Column="1" BorderThickness="0" Height="auto" Width="350"  HorizontalAlignment="Left" Margin="0, 0, 0, 10">
-                <TextBlock Grid.Row="5" Grid.Column="1" Text="Address :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0" SelectionChanged="TextBlock_SelectionChanged_2" />
+                <TextBlock x:ConnectionId='11' Grid.Row="5" Grid.Column="1" Text="Address :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0"                                                 />
             </Border>
-            <TextBox Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4" TextChanged="TextBox_TextChanged_3" />
+            <TextBox x:ConnectionId='4' Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4"                                     />
 
             <Border Background="#FF173852"  BorderBrush="Black" Grid.Row="6" Grid.Column="1" BorderThickness="0" Height="auto" Width="350"  HorizontalAlignment="Left" Margin="0, 0, 0, 10">
-                <TextBlock Grid.Row="6" Grid.Column="1" Text="Phone number :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0" SelectionChanged="TextBlock_SelectionChanged_4" />
+                <TextBlock x:ConnectionId='10' Grid.Row="6" Grid.Column="1" Text="Phone number :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0"                                                 />
             </Border>
-            <TextBox Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4" TextChanged="TextBox_TextChanged_4" />
+            <TextBox x:ConnectionId='5' Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4"                                     />
 
             <Border Background="#FF173852"  BorderBrush="Black" Grid.Row="7" Grid.Column="1" BorderThickness="0" Height="auto" Width="350"  HorizontalAlignment="Left" Margin="0, 0, 0, 10">
-                <TextBlock Grid.Row="7" Grid.Column="1" Text="Email :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0" SelectionChanged="TextBlock_SelectionChanged_5" />
+                <TextBlock x:ConnectionId='9' Grid.Row="7" Grid.Column="1" Text="Email :" Foreground="#FFFFFFFF" FontSize="36" Margin="10, 0, 0, 0"                                                 />
             </Border>
-            <TextBox Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4" TextChanged="TextBox_TextChanged_5" />
+            <TextBox x:ConnectionId='6' Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2" Background="#FFEEEEF5" Margin="0, 0, 0, 10" BorderThickness="4"                                     />
 
             <StackPanel Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center" >
                 <Border Background="#FF7D9EB8"  BorderBrush="Black" BorderThickness="2,4" Height="70" Width="auto"  >
-                    <Button x:Name="button" Content="Cancel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36" Click="button_Click"/>
+                    <Button x:ConnectionId='8' x:Name="button" Content="Cancel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="36"                     />
                 </Border>
                 <Border Background="#FF7D9EB8"  BorderBrush="Black" Grid.ColumnSpan="2" Grid.Row="1" BorderThickness="2,4" Height="70" Width="auto"  >
-                    <Button x:Name="button1" Content="Validate" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" FontSize="36" Height="62" Click="button1_Click"/>
+                    <Button x:ConnectionId='7' x:Name="button1" Content="Validate" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" FontSize="36" Height="62"                      />
                 </Border>
             </StackPanel>
 
         </Grid>
     </Grid>
 </Page>
+

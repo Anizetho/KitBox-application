@@ -50,6 +50,8 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="Child" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -66,9 +68,6 @@
       <RootProperty Name="SkewY" />
       <RootProperty Name="TranslateY" />
       <RootProperty Name="Rotation" />
-      <RootProperty Name="SkewX" />
-      <RootProperty Name="TranslateX" />
-      <RootProperty Name="ScaleX" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -81,6 +80,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Inlines" />
+      <RootProperty Name="Height" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
@@ -105,9 +105,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="RequestedTheme" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
@@ -117,14 +114,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="VerticalContentAlignment" />
-      <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="MinHeight" />
-      <RootProperty Name="Padding" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="UseLayoutRounding" />
       <RootEvent Name="Checked" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ScaleTransform">
@@ -137,24 +126,16 @@
     <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="Application_KitBox.BlankPage1" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Controls.DatePickerFlyout" />
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="BorderThickness" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="RequestedTheme" />
-      <RootEvent Name="TextChanged" />
-    </RootType>
     <RootType FullName="Application_KitBox.BlankPage2" />
     <RootType FullName="Application_KitBox.BlankPage3" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="BorderThickness" />
+      <RootEvent Name="TextChanged" />
+    </RootType>
+    <RootType FullName="Application_KitBox.BlankPage4" />
+    <RootType FullName="Application_KitBox.BlankPage5" />
     <RootType FullName="Windows.UI.Xaml.Controls.CalendarView">
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />

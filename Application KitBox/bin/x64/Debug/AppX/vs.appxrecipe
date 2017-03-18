@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-13T23:05:44.584</Modified>
+      <Modified>2017-03-18T18:18:09.121</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\bin\x64\Debug\Application KitBox.exe">
       <PackagePath>entrypoint\Application KitBox.exe</PackagePath>
-      <Modified>2017-03-13T23:05:42.903</Modified>
+      <Modified>2017-03-18T18:18:08.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anizetho\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -504,7 +504,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\bin\x64\Debug\Application KitBox.xr.xml">
       <PackagePath>Application KitBox.xr.xml</PackagePath>
-      <Modified>2017-03-13T23:05:42.717</Modified>
+      <Modified>2017-03-18T18:18:07.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -513,11 +513,11 @@
     <AppxPackagedFile Include="C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-13T23:05:44.219</Modified>
+      <Modified>2017-03-18T18:18:08.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anizetho\Documents\Visual Studio 2015\Projects\Application KitBox\Application KitBox\bin\x64\Debug\Core\Application KitBox.exe">
       <PackagePath>Application KitBox.exe</PackagePath>
-      <Modified>2017-03-13T23:05:44.577</Modified>
+      <Modified>2017-03-18T18:18:09.116</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

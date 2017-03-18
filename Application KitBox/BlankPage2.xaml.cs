@@ -81,5 +81,55 @@ namespace Application_KitBox
         {
 
         }
+
+        private void TextBlock_SelectionChanged_3(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(BlankPage3));
+        }
+
+        private void Red_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Brown1_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void White_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void comboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void textBlock3_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Black_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBlock2_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

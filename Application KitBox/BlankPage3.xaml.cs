@@ -27,22 +27,27 @@ namespace Application_KitBox
             this.InitializeComponent();
         }
 
-        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void TextBlock_SelectionChanged_3(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(BlankPage4));
+        }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void textBox2_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, TextChangedEventArgs e)
+        private void TextBlock_SelectionChanged_1(object sender, RoutedEventArgs e)
         {
 
         }
